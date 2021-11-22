@@ -5,3 +5,4 @@ Esta herramienta tiene el propósito de captar la atención de los niños, por e
 ## Sebastian Lopez Sotelo
 ## Antonio Gomez Banda 
 ##  Gloria Elena  Cordero  Almario
+### Franklin Marttínez Ávila Docent
