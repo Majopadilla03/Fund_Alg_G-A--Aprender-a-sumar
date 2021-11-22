@@ -6,4 +6,4 @@ Esta herramienta tiene el propósito de captar la atención de los niños, por e
 ## Antonio Gomez Banda 
 ##  Gloria Elena  Cordero  Almario
 ### Franklin Marttínez Ávila Docent
-# les falta colocar el menú a matrialComplementario y contenidos
+# les falta colocar el menú a matrialComplementario, contenidos y acitividades
