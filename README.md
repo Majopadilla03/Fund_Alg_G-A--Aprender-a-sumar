@@ -4,3 +4,4 @@ Esta herramienta tiene el propósito de captar la atención de los niños, por e
 ## Maria Jose Padilla Urueta
 ## Sebastian Lopez Sotelo
 ## Antonio Gomez Banda 
+##  Gloria Elena  Cordero  Almario
