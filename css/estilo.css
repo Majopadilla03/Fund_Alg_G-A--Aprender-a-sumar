@@ -24,4 +24,10 @@ body{ background:url(https://www.megaidea.net/wp-content/uploads/2021/04/fondo-c
 .menu a:hover{
     background-color: turquoise;
 
+} 
+p{
+    font-size: 32px; 
+    line-height: 30px; 
+    margin: 20px; 
+
 }
