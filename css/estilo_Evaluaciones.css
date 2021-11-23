@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: cornflowerblue;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    background-color: red;
+    width: 80%;
+    max-width: 1000px;
+    margin: initial;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.menu a{
+    display: inline-block;
+    text-align: center;
+}
+.menu a:hover{
+    background-color: turquoise;
+}
