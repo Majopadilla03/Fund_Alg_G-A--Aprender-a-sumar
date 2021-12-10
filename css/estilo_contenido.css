@@ -26,3 +26,24 @@ body{
     background-color: turquoise;
 
 }
+h1{
+    font-size: 50px;
+    margin: 30px;
+}
+h2{
+    font-size: 35px;
+    margin: 30px;
+}
+p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+}
+.encabezado{
+    font-size: 50px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 500px;
+    background-image: linear-gradient(to right,rgb(214, 235,79),rgb(100, 219, 228));
+    box-shadow: 10px 10px 10px gray;
+}
