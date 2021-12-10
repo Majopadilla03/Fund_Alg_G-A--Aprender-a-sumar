@@ -32,8 +32,8 @@ p{
     line-height: 30px; 
     margin: 20px; 
     border-radius: 5px;
-    background-color: rgb(197, 197, 231);
-    box-shadow: 10px 10px 10px rgb(85, 85, 226);
+    background-color: rgb();
+    box-shadow: 10px 10px 10px rgb(3, 3, 153);
 
 }
 h1{
@@ -61,6 +61,13 @@ footer{
     border-radius: 100px;
     margin: auto;
 
+}
+iframe{
+    background-color: rgb(9, 44, 139);
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(125, 173, 14);
+    margin: auto;
 }
 
     
