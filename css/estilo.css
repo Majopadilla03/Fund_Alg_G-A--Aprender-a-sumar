@@ -29,32 +29,32 @@ body{ background:url(https://www.megaidea.net/wp-content/uploads/2021/04/fondo-c
 } 
 p{
     font-size: 25px; 
-    line-height: 30px; 
-    margin: 20px; 
-    border-radius: 5px;
-    background-color: rgb();
-    box-shadow: 10px 10px 10px rgb(3, 3, 153);
-
+    margin: 30px; 
+   text-align: justify;
+    
+    
 }
 h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 60px;
+    background-color: rgb(160, 90, 160);
+    border-radius: 20px;
+    width: 700px;
+    box-shadow: 10px 10px 10px rgb(207, 124, 22);
 }
 h2{
-    font-size: 30px;
+    font-size: 25px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 10px 10px 10px crimson;
 }
 em{
     color: navy;
 }
 
-.encabezado{
-    font-size: 50px;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    width: 500px;
-    background-image: linear-gradient(to right,rgb(63, 100, 202),rgb(201, 202, 223));
-    box-shadow: 10px 10px 10px rgb(125, 173, 14);
-}
 footer{
     background-color: rgb(146, 243, 175);
     width: 50%;
