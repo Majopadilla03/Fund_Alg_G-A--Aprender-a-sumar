@@ -9,7 +9,9 @@ body{ background:url(https://www.megaidea.net/wp-content/uploads/2021/04/fondo-c
     background-color: rgb(47, 126, 16);
     width: 80%;
     max-width: 1000px;
-    margin: initial;
+    margin: auto;
+    border-radius: 100px;
+    
 }
 .menu a{
     text-decoration: none;
@@ -56,6 +58,13 @@ em{
     width: 500px;
     background-image: linear-gradient(to right,rgb(214, 235,79),rgb(215,129,255));
     box-shadow: 10px 10px 10px gray;
+}
+footer{
+    background-color: rgb(146, 243, 175);
+    width: 50%;
+    border-radius: 100px;
+    margin: auto;
+
 }
 
     
