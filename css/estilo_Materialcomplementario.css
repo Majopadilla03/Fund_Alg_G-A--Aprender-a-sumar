@@ -70,4 +70,13 @@ tr:hover td {
   background-color: #3f4dc9;
   color: white;
 }
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    background-color: rgb(97, 57, 207);
+    width: 900px;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 10px 10px 10px lemonchiffon;
+}
 
