@@ -40,4 +40,10 @@ p{
     background-image: linear-gradient(to right,rgb(120, 186, 190),rgb(100, 219, 228));
     box-shadow: 10px 10px 10px rgb(187, 93, 93);
 }
+h3{
+    background-color: darkorange;
+    width: 500px;
+    border-radius: 100px;
+    box-shadow: 10px 10px 10px rgb(228, 41, 128);
+}
 
