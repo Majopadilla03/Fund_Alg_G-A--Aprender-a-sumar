@@ -8,7 +8,8 @@ body{
     background-color: rgb(26, 24, 59);
     width: 80%;
     max-width: 1000px;
-    margin: initial;
+    margin: auto;
+    border-radius: 100px;
 }
 .menu a{
     text-decoration: none;
@@ -24,4 +25,11 @@ body{
 }
 .menu a:hover{
     background-color: turquoise;
+}
+h1{
+    font-size: 50px;
+    background-color: chartreuse;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: rgb(250, 0, 217);
 }
