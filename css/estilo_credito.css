@@ -42,3 +42,16 @@ p.as{
     font-size: 10px;
     text-align: center;
 }
+p{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 40px;
+    margin: 40px;
+    text-align: justify;
+}
+h4{
+    font-size: 35px;
+    text-align: center;
+    padding: 0px;
+    margin: 40px;
+}
