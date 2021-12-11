@@ -28,8 +28,8 @@ body{
 }
 h1{
     font-size: 50px;
-    background-color: chartreuse;
-    width: 500px;
+    background-color: rgb(60, 255, 0);
+    width: 700px;
     border-radius: 20px;
-    box-shadow: rgb(250, 0, 217);
+    box-shadow:10px 10px 10px rgb(0, 0, 0);
 }
