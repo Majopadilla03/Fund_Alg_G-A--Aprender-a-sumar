@@ -29,8 +29,13 @@ background-color: turquoise;
 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
-    margin: 30px;
+    margin:auto;
     padding: 30px;
+    text-align: justify;
+    background-color:rgb(161, 217, 243);
+    border-radius: 20px;
+    width: 900px;
+    box-shadow:10px 10px 10px darksalmon;
 }
 .encabezado{
     font-size: 50px;
