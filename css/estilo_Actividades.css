@@ -8,7 +8,9 @@ body{
     background-color: #d2691e;
     width: 80%;
     max-width: 1000px;
-    margin: initial;
+    margin: auto;
+    border-radius: 100px;
+
 }
 .menu a{
     text-decoration: none;
