@@ -56,9 +56,9 @@ em{
 }
 
 footer{
-    background-color: rgb(146, 243, 175);
-    width: 50%;
-    border-radius: 100px;
+    background-color: rgb(222, 226, 8);
+    width: 500px;
+    border-radius: 10px;
     margin: auto;
 
 }
@@ -66,8 +66,14 @@ iframe{
     background-color: rgb(9, 44, 139);
     width: 50%;
     border-radius: 10px;
-    box-shadow: 10px 10px 10px rgb(125, 173, 14);
-    margin: auto;
+    box-shadow: 10px 10px 10px rgb(78, 173, 14);
+    
+
+}
+p.as{
+    font-size: 10px;
+    text-align: center;
+
 }
 
     

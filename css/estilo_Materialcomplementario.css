@@ -79,4 +79,15 @@ p{
     margin: 20px;
     box-shadow: 10px 10px 10px lemonchiffon;
 }
+footer{
+    background-color: rgb(222, 226, 8);
+    width: 500px;
+    border-radius: 10px;
+    margin: auto;
+}
+p.as{
+    font-size: 10px;
+    text-align: center;
+}
+
 
