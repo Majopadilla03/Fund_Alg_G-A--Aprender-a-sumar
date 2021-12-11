@@ -33,3 +33,41 @@ h1{
     border-radius: 20px;
     box-shadow:10px 10px 10px rgb(0, 0, 0);
 }
+table {
+    margin: 50px;
+    caption-side: bottom;
+   border-collapse: collapse;
+    background-image: linear-gradient(to left, rgb(214, 235, 79),white);
+box-shadow: 5px 5px 5px gray;
+}
+
+th,td { 
+border: 2px solid black;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+text-align: center;
+}
+
+ th {
+background-color: black;
+color: white;
+
+ }
+
+ thead {
+  background-color: #003366;
+  border-bottom: solid 5px #0099cc;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+tr:hover td {
+  background-color: #cc6666;
+  color: white;
+}
+
