@@ -27,7 +27,8 @@ body{
 h1{
     font-size: 50px;
     background-color: crimson;
-    width: 500px;
+    width: 1000px;
+    padding: 30px;
     border-radius: 20px;
     box-shadow:10px 10px 10px rgb(212, 34, 189);
 
@@ -64,7 +65,7 @@ nav.Cinco{
     
 }
 footer{
-    background-color: rgb(222, 226, 8);
+   
     width: 500px;
     border-radius: 10px;
     margin: auto;
@@ -72,5 +73,16 @@ footer{
 p.as{
     font-size: 10px;
     text-align: center;
+}
+nav.boton{
+    background-color: blue;
+}
+main{
+    background-color: darkgray;
+    width: 1000px;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 20px;
+
 }
 
