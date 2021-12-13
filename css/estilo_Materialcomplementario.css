@@ -78,13 +78,10 @@ p.aa{
     border-radius: 20px;
     margin: 20px;
     box-shadow: 10px 10px 10px lemonchiffon;
+    padding: 10px;
 }
-footer{
-    background-color: rgb(222, 226, 8);
-    width: 500px;
-    border-radius: 10px;
-    margin: auto;
-}
+
+
 p.as{
     font-size: 10px;
     text-align: center;

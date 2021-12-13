@@ -41,7 +41,7 @@ p.am{
     font-size: 50px;
     border-radius: 10px;
     margin-bottom: 10px;
-    width: 500px;
+    width: 1000px;
     background-image: linear-gradient(to right,rgb(120, 186, 190),rgb(100, 219, 228));
     box-shadow: 10px 10px 10px rgb(187, 93, 93);
 }
@@ -50,9 +50,10 @@ h3{
     width: 300px;
     border-radius: 100px;
     box-shadow: 10px 10px 10px rgb(228, 41, 128);
+    padding: 10px;
 }
 footer{
-    background-color: rgb(222, 226, 8);
+   
     width: 500px;
     border-radius: 10px;
     margin: auto;
@@ -60,5 +61,12 @@ footer{
 p.as{
     font-size: 10px;
     text-align: center;
+}
+main{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 1000px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 5px   yellow;
 }
 
