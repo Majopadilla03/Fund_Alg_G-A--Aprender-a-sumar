@@ -39,7 +39,8 @@ h1{
     font-size: 60px;
     background-color: rgb(160, 90, 160);
     border-radius: 20px;
-    width: 700px;
+    width: 1000px;
+    padding: 5px;
     box-shadow: 10px 10px 10px rgb(207, 124, 22);
 }
 h2{
@@ -47,7 +48,7 @@ h2{
     background-color: cornflowerblue;
     border-radius: 10px;
     padding: 10px;
-    width: 300px;
+    width: 500px;
     text-align: center;
     box-shadow: 10px 10px 10px crimson;
 }
@@ -56,8 +57,8 @@ em{
 }
 
 footer{
-    background-color: rgb(222, 226, 8);
-    width: 500px;
+    
+    width: 1000px;
     border-radius: 10px;
     margin: auto;
 
@@ -74,6 +75,12 @@ p.as{
     font-size: 10px;
     text-align: center;
 
+}
+main{
+    width: 1000px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
 }
 
     
