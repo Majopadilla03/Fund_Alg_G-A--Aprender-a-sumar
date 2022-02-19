@@ -27,8 +27,13 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: justify;
     padding: 150px;
+    margin: initial;
 }
 section{
     background-color: aliceblue;
     padding: 30px;
+}
+h1{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
 }
