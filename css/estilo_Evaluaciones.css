@@ -27,13 +27,17 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: justify;
     padding: 100px;
-    margin: initial;
-    border: 1000px;
-    border-radius: 100px;
+    border: 100px;
+    
+   
+    
 }
 section{
     background-color: aliceblue;
     padding: 30px;
+    border: 20px;
+    border-radius: 30px;
+    
 }
 h1{
     font-size: 45px;
@@ -60,7 +64,7 @@ input[type='submit']:hover{
     padding: 10px;
     margin: 10px 0;
 }
-#resultado.span{
+#resultado span{
     color: black;
     font-weight: bold;
 }
