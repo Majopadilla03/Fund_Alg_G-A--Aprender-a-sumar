@@ -28,6 +28,8 @@ body{
     text-align: justify;
     padding: 150px;
     margin: initial;
+    border: 1000px;
+    border-radius: 100px;
 }
 section{
     background-color: aliceblue;
@@ -36,4 +38,20 @@ section{
 h1{
     font-size: 45px;
     font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input[type='submit']{
+    background-color: darkorange;
+    font-size: 20px;
+    border: 20px;
+    border-radius: 10px;
+    width: 100px;
+    box-shadow:5px 5px 5px rgb(2, 1, 1);
+    
+}
+input[type='submit']:hover{
+    background-color: greenyellow;
 }
