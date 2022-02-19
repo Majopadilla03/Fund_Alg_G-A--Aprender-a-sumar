@@ -1,0 +1,34 @@
+.menu{
+    list-style: none;
+    padding: 0;
+    background-color: rgb(212, 54, 152);
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 100px;
+    
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.menu a{
+    display: inline-block;
+    text-align: center;
+}
+.menu a:hover{
+    background-color: rgb(64, 107, 224);
+
+} 
+body{
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    padding: 150px;
+}
+section{
+    background-color: aliceblue;
+    padding: 30px;
+}
