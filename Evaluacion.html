@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evaluacion</title>
     <link rel="stylesheet" href="css/estilo_Evaluaciones.css">
+    <link rel="stylesheet" href="Js/evaluacion.js">
 
     <center>
         <nav class="menu">
@@ -19,6 +20,120 @@
    
 </head>
 <body>
+    <div id="container">
+        <header> 
+        <center>
+        <h1>evaluacion</h1>
+        <p>responder las siguientes preguntas</p>
+         </center>   
+         </header>
+    <section>
+    <div id="resultado"></div>
+        <form name="evaluacionForm" onsubmit="return verificarRespuesta()">
+
+            <h3>1.	Si tengo 3 peras y mi mama me regala 6 peras más. ¿Cuántas peras tengo en total? </h3>
+            <input type="radio" name="p1" value="a"> a). 10 peras. <br>
+            <input type="radio" name="p1" value="b"> b). 8 peras.. <br>
+            <input type="radio" name="p1" value="c"> c). 12 peras. <br>
+            <input type="radio" name="p1" value="d"> d). 9 peras. <br>
+
+            <h3>2. Si juan tiene en su bolsillo 3 pesos y se encuentras 10 pesos. ¿cuantos pesos tiene en total juan?</h3>
+
+            <input type="radio" name="p2" value="a"> a). 13 pesos. <br>
+            <input type="radio" name="p2" value="b"> b). 8 peras.. <br>
+            <input type="radio" name="p2" value="c"> c). 15 pesos. <br>
+            <input type="radio" name="p2" value="d"> d). 9 peras. <br>
+            <br>
+            <br>
+
+            <h3>3.Ayer por la mañana compre 8 naranjas y en la tarde compre 9 más. ¿Cuántas naranjas en total compre ayer?</h3>
+
+            <input type="radio" name="p3" value="a"> a)	30 naranjas. <br>
+            <input type="radio" name="p3" value="b"> b)	20 naranjas. <br>
+            <input type="radio" name="p3" value="c"> c)	17 naranjas. <br>
+            <input type="radio" name="p3" value="d"> d)	19 naranjas.<br>
+            <br>
+            <br>
+
+            <h3>4.	Juan, Pedro y Ana deciden reunir todo su dinero, Juan tiene 4 pesos, Ana tiene 10 pesos y Pedro tiene 6 pesos. ¿Cuánto dinero logran reunir Pedro, Juan y Ana?</h3>
+
+            <input type="radio" name="p4" value="a"> a)	15 pesos.   <br>
+            <input type="radio" name="p4" value="b"> b)	19 pesos. <br>
+            <input type="radio" name="p4" value="c"> c)	30 pesos. <br>
+            <input type="radio" name="p4" value="d"> d)	20 pesos.<br>
+            <br>
+            <br>
+
+            <h3>5.	En la finca de mi abuela hay 3 patos, 5 gallinas y 3 pavos. ¿Cuántas aves de corral hay en la finca de mi abuela?</h3>
+
+            <input type="radio" name="p5" value="a"> a)	15 aves de corral. <br>
+            <input type="radio" name="p5" value="b"> b)	13 aves de corral. <br>
+            <input type="radio" name="p5" value="c"> c)	11 aves de corral. <br>
+            <input type="radio" name="p5" value="d"> d)	9 aves de corral.<br>
+            <br>
+            <br>
+
+            <h3>6.	María tiene 3 muñecas de juguete y el día de su cumple años  sus papas le regalan 4 muñecas más. ¿cuantas muñecas  tiene maría después de su cumple años?</h3>
+
+            <input type="radio" name="p6" value="a"> a)	7 muñecas. <br>
+            <input type="radio" name="p6" value="b"> b)	10 muñecas. <br>
+            <input type="radio" name="p6" value="c"> c)	8 muñecas. <br>
+            <input type="radio" name="p6" value="d"> d)	5 muñecas<br>
+            <br>
+            <br>
+
+            <h3>7.	En un corral hay 10 vacas y meten 5 vacas más al corral y más tarde meten otras 7 vacas más. ¿cuantas vacas hay en total dentro del corral?</h3>
+
+            <input type="radio" name="p7" value="a"> a)	32 vacas. <br>
+            <input type="radio" name="p7" value="b"> b)	15 vacas. <br>
+            <input type="radio" name="p7" value="c"> c)	22 vacas. <br>
+            <input type="radio" name="p7" value="d"> d)	26 vacas.<br>
+            <br>
+            <br>
+
+            <h3>8.	Ayer fui a la tienda de mi barrio y compre 8 libras de harina, y hoy fui y compre 4 libras de harina más. ¿Cuántas libras de harina compre entre ayer y hoy?</h3>
+
+            <input type="radio" name="p8" value="a"> a)	15 libras de harina.  <br>
+            <input type="radio" name="p8" value="b"> b)	12 libras de harina. <br>
+            <input type="radio" name="p8" value="c"> c)	9 libras de harina. <br>
+            <input type="radio" name="p8" value="d"> d)	20 libras de harina<br>
+            <br>
+            <br>
+
+            <h3>9.	¿Cuál es la respuesta correcta de la siguiente suma: 15+7+5=?</h3>
+
+            <input type="radio" name="p9" value="a"> a)	20 <br>
+            <input type="radio" name="p9" value="b"> b)	35 <br>
+            <input type="radio" name="p9" value="c"> c)	46 <br>
+            <input type="radio" name="p9" value="d"> d)	27<br>
+            <br>
+            <br>
+
+            <h3>¿Cuál es la respuesta correcta de la siguiente suma: 4+12+20=?</h3>
+
+            <input type="radio" name="p10" value="a"> a)	36 <br>
+            <input type="radio" name="p10" value="b"> b)	14 <br>
+            <input type="radio" name="p10" value="c"> c)	39 <br>
+            <input type="radio" name="p10" value="d"> d)	24<br>
+            <br>
+            <br>
+
+            
+
+
+            
+                <input type="submit" value="ENVIAR ">
+
+
+
+             </form>
+
+
+        </section>
+
+
+    </div>
+    <script src="evaluacion.js"></script>
     
 </body>
 </html>
