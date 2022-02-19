@@ -26,7 +26,7 @@ body{
     background-color: aqua;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: justify;
-    padding: 150px;
+    padding: 100px;
     margin: initial;
     border: 1000px;
     border-radius: 100px;
@@ -54,4 +54,13 @@ input[type='submit']{
 }
 input[type='submit']:hover{
     background-color: greenyellow;
+}
+#resultado.h3{ 
+    background-color: lime;
+    padding: 10px;
+    margin: 10px 0;
+}
+#resultado.span{
+    color: black;
+    font-weight: bold;
 }
