@@ -24,25 +24,14 @@ body{
 .menu a:hover{
     background-color: turquoise;
 }
-h1{
-    font-size: 50px;
-    background-color: crimson;
-    width: 1000px;
-    padding: 30px;
-    border-radius: 20px;
-    box-shadow:10px 10px 10px rgb(212, 34, 189);
-
+h2{
+    font-size: 60px;
 }
-
-main{
-    background-color: rgb(255, 248, 248);
-    width: 1000px;
-    margin: 20px;
-    border-radius: 20px;
-    padding: 20px;
-
+p{
+    font-size: 30px;
+    
 }
-
 footer{
     font-size: 10px;
+    
 }
