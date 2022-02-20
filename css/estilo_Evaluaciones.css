@@ -23,7 +23,7 @@
 
 } 
 body{
-    background-color: aqua;
+    background-color: rgb(209, 240, 240);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: justify;
     padding: 100px;
@@ -67,4 +67,10 @@ input[type='submit']:hover{
 #resultado span{
     color: black;
     font-weight: bold;
+}
+#container{
+    width: 90%;
+    background-color: rgba(40, 80, 80, 0.192);
+    margin: 20px auto;
+    padding: 25px;
 }
