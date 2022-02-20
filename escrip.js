@@ -18,7 +18,7 @@ function verificarRespuesta(){
         }
     }
     var resultado = document.getElementById("resultado");
-    resultado.innerHTML = '<h3>obtuviste <span>'+punto+'</span> de <span>'+total+'punto </span> </h3>';
+    resultado.innerHTML = '<h3>Obtuviste <span>'+punto+'</span> de <span>'+total+'punto </span> </h3>';
 
     return false;
 

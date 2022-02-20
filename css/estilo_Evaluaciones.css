@@ -59,10 +59,13 @@ input[type='submit']{
 input[type='submit']:hover{
     background-color: greenyellow;
 }
-#resultado.h3{ 
+#resultado h3{ 
     background-color: lime;
     padding: 10px;
     margin: 10px 0;
+    font-size: 20px;
+    width: 500px;
+
 }
 #resultado span{
     color: black;
